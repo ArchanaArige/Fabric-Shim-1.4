@@ -21,10 +21,12 @@ Steps:
 echo $GOPATH
 
 5. Clone this repository. 
-git clone https://github.com/acloudfan/Fabric-Shim-1.4.git
+
+>    git clone https://github.com/acloudfan/Fabric-Shim-1.4.git
 
 6. Un tar the file using the command below
-tar xvf fabric-shim-1.4.tar -C $GOPATH
+
+>    tar xvf fabric-shim-pkg-1.4.tar -C $GOPATH
 
 If there is no error then you are good to go
 

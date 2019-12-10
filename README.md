@@ -14,11 +14,17 @@ Follow the steps in the setup lecture & if you get the below error then follow t
 Steps:
 ======
 1. Log into the VM
-2. Create a temp folder .    mkdir temp
-3. Change to the temp folder .   cd temp
+2. Create a temp folder 
+
+>    mkdir temp
+
+3. Change to the temp folder
+
+>    cd temp
+
 4. Check the GOPATH. If it is NOT set then you MUST execute the prior steps for setting the GoLang/GOPATH
 
-echo $GOPATH
+>    echo $GOPATH
 
 5. Clone this repository. 
 

@@ -24,3 +24,7 @@ chmod 755 /usr/local/bin/FILE-NAME
 E.g., to change the mod for fabric-ca-server
 
 chmod 755 /usr/local/bin/fabric-ca-server
+
+8. Verify by executing
+
+fabric-ca-server     version

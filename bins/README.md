@@ -15,7 +15,7 @@ wget https://raw.githubusercontent.com/acloudfan/Fabric-Shim-1.4/master/bins/fab
 
 5. Copy the file
 
-sudo * /usr/local/bin
+sudo  cp * /usr/local/bin
 
 6. Change the mod of the file - replace the FILE-NAME with the file you downloaded
 

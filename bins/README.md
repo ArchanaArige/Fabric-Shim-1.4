@@ -19,11 +19,11 @@ sudo  cp * /usr/local/bin
 
 6. Change the mod of the file - replace the FILE-NAME with the file you downloaded
 
-chmod 755 /usr/local/bin/FILE-NAME
+sudo chmod 755 /usr/local/bin/FILE-NAME
 
 E.g., to change the mod for fabric-ca-server
 
-chmod 755 /usr/local/bin/fabric-ca-server
+sudo chmod 755 /usr/local/bin/fabric-ca-server
 
 8. Verify by executing
 

@@ -29,6 +29,27 @@ sudo chmod 755 /usr/local/bin/fabric-ca-server
 
 fabric-ca-server     version
 
+fabric-ca-server
+================
+Instructions:
+
+1. Log into the VM
+2. mkdir temp
+3. cd temp
+4. Pull the needed file by replacing the name with appropriate file name
+
+wget https://raw.githubusercontent.com/acloudfan/Fabric-Shim-1.4/master/bins/fabric-ca-server
+
+5. Copy the file
+sudo cp * /usr/local/bin
+
+6. Change the mod of the file - replace the FILE-NAME with the file you downloaded
+sudo chmod 755 /usr/local/bin/fabric-ca-server
+
+7. Verify by executing
+fabric-ca-server version
+
+
 
 Govendor
 ========

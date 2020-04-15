@@ -39,3 +39,24 @@ If there is no error then you are good to go
 Happy Learining !!!!
 
 
+===========================
+
+Solution suggested by Aziza Hamdani
+===================================
+
+
+I have run into the same error and apparently the release of fabric that was  cloned is master release
+https://github.com/hyperledger/fabric
+
+For a reason i ignore this release dont include "core/chaincode/shim" which is needed for the build process
+
+One quick fix i have tried is to delete the master branch and clone release1-4
+
+$ cd $GOPATH/src/github.com/hyperledge
+$ rm -rf fabric
+$ git clone -b release-1.4 https://github.com/hyperledger/fabric.git 
+$ go install  -tags nopkcs11 chaincode_example02
+And it worked aparently
+
+But i didn't find the line in bash script that was responsible of the download of fabric repository . 
+
